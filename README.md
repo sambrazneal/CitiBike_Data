@@ -12,8 +12,19 @@ In this module we analyzed NYC CitiBike data to see if a bike-sharing service wo
 ### Deliverable 1: Change Trip Duration to a Datetime Format
 
 ### Deliverable 2: Create Visualizations for the Trip Analysis
+![Checkout_Users](images/Checkout_Users.png)
+
+![Checkout_Gender](images/Checkout_Gender.png)
+
+![Trips_weekday](images/Trips_weekday.png)
+
+![Trips_gender](images/Trips_gender.png)
+
+![User_type](images/User_type.png)
 
 ### Deliverable 3: Create a Story and Report for the Final Presentation
+
+![start_end](images/start_end.png)
 
 ----
 
