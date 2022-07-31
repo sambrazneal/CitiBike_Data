@@ -11,7 +11,8 @@ In this module we analyzed NYC CitiBike data to see if a bike-sharing service wo
 
 ### Deliverable 1: Change Trip Duration to a Datetime Format
 
-code:
+#### code:
+
 bike_data_df['tripduration'] = pd.to_datetime(bike_data_df['tripduration'], unit='s')
 
 bike_data_df.to_csv('../Challenge/201908_citibike_data_dt.csv', index=False)
@@ -29,7 +30,7 @@ The majority of bike riders are male.
 ![Trips_weekday](images/Trips_weekday.png)
 Alot of trips are made during rush hours. 
 
-![Trips_gender](images/Trips_gender.png)
+![trips_gender](images/trips_gender.png)
 The majority of trips are made in rush hour for all genders. 
 
 ![User_type](images/User_type.png)
