@@ -11,6 +11,11 @@ In this module we analyzed NYC CitiBike data to see if a bike-sharing service wo
 
 ### Deliverable 1: Change Trip Duration to a Datetime Format
 
+code:
+bike_data_df['tripduration'] = pd.to_datetime(bike_data_df['tripduration'], unit='s')
+
+bike_data_df.to_csv('../Challenge/201908_citibike_data_dt.csv', index=False)
+
 ### Deliverable 2: Create Visualizations for the Trip Analysis
 
 ### Checkout times
